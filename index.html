@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickTip</title>
+    <link rel="stylesheet" href="index2.css" />
+</head>
+
+<body class="light-theme">
+    <header class="header">
+        <h1 class="title">QuickTip Calculator</h1>
+        <button class="btn toggle-btn">Dark Mode</button>
+    </header>
+
+    <main class="main-container">
+        <section class="input-section">
+            <label for="bill">Bill Amount (₹)</label>
+            <input type="number" id="bill" class="input bill-input" placeholder="Enter bill amount" />
+
+            <label for="tip">Tip %</label>
+            <input type="number" id="tip" class="input tip-input" placeholder="Enter tip %" />
+
+            <button class="btn calculate-btn">Calculate</button>
+        </section>
+
+        <section class="output-section">
+            <p class="result-text">Tip Amount: ₹<span class="tip-amount">0</span></p>
+            <p class="result-text">Total Amount: ₹<span class="total-amount">0</span></p>
+        </section>
+    </main>
+
+    <script src="index2.js"></script>
+</body>
+
+</html>
